@@ -1,4 +1,4 @@
-module godbdeep
+module github.com/gobenpark/godbdeep
 
 go 1.19
 
