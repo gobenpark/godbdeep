@@ -1,0 +1,26 @@
+
+source:
+  ip: 10.64.15.251
+  id: ben
+  password: MnAobpfl8I/H
+  port: 3306
+  database: swit
+  name: io
+
+
+destination:
+  - name: dev
+    ip: 192.168.0.1
+    port: 3306
+    id: admin
+    password: MnAobpfl8I/H
+    database: swit
+  - name: exp
+    ip: 192.168.0.0
+    port: 3306
+    id: admin
+    password: MnAobpfl8I/H
+    database: swit
+
+
+timeout: 30s
